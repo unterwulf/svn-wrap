@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec svn-pager ${0##*svn-} "$@"
